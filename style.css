@@ -1,0 +1,97 @@
+body { background-color: lightpink;
+ color: white;
+ font-family: 'Lora', serif;; 
+ font-size: 20px;
+ font-weight: inherit;
+ text-align: justify;
+ text-align: center;
+
+}
+
+
+
+h1,h2 { color:white;}
+
+
+
+
+
+h1 { font-weight:900;
+ font-family: 'Cinzel', serif;
+ font-size:45px }
+
+
+
+h2 { font-weight:500;
+ margin-bottom: 15px
+ font-family: 'Josefin Sans', sans-serif;}
+
+
+
+
+ a {text-decoration: blink;
+ color: lightpink;
+ font-size: 20px;
+ transition: color 0.3 ease;}
+
+
+
+img {
+ width: 165px;
+ height: 200px;
+ margin: 20px;
+ margin-top: 0px;
+ padding: 0px;
+ border-radius: 50%;}
+
+
+ 
+
+
+
+ /* Custom Design with class */
+
+.container{width: 700px;
+ margin: 30px auto;}
+
+
+
+@media(max-width: 300px)
+ {.container {width:150px;}}
+
+
+.card-white{ 
+ background-color: mediumpurple;
+ box-shadow:12px 12px 2px 1px rgba(0, 0, 0, 0.05);
+ padding: 20px;
+ padding-bottom: 40px;
+ margin: 20px;}
+
+
+.btn{ background-color: lightpink;
+ color: white;
+ padding: 10px 15px;
+ border-radius: 5%;}
+
+
+
+.list-inline {
+ list-style: none;
+ padding-left: 0px;}
+
+
+.list-inline li { 
+ display: inline;
+ padding: 10px;}
+
+
+.list-inline i { 
+ font-size: 48px;
+ color: lightpink;}
+}
+
+
+/* specific adjustments with id */
+
+#introduction p { 
+ margin-bottom: 40px;}
